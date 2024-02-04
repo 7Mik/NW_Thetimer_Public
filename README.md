@@ -3,7 +3,7 @@ The best respawn timer by the best player
 
 The project is based on the good work made by NicoVisci here: https://github.com/NicoVisci/NW-TimerBot-Desktop
 
-The source code is also partially closed (src/renderer.js)
+The source code is also partially obfuscated (src/renderer.js)
 
 These are the fixes I have implemented that were dealbreaking before:
 
