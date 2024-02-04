@@ -18,7 +18,7 @@
   "private": true,
   "productName": "NW Thetimer",
   "devDependencies": {
-    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/cli": "^7.2.0",
     "@electron-forge/maker-deb": "^7.2.0",
     "@electron-forge/maker-rpm": "^6.1.1",
     "@electron-forge/maker-squirrel": "^7.2.0",
