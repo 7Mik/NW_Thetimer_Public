@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1  {
+    font-size:110px;
+    position: static;
+    text-align: end;
+}
+
+body {
+    -webkit-app-region: drag;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    /*color: #79fe0c;*/
+    color: #ffffff; 
+    user-select: none;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.tip {
+    font-size: 10px;
+    text-align: center;
+}
+
+#close {
+    padding: 5px;
+    font-size: .8em;
+    color: grey;
+    -webkit-app-region: no-drag;
+}
+
+#close:hover {
+    color: #b04206;
+}
+
+#timer {
+    -webkit-text-stroke: 5px black;
+}
+
+.timeStamp {
+    background: black;
+}
