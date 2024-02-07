@@ -1,9 +1,7 @@
 module.exports = {
   packagerConfig: {
-    win32: {
-      icon: './src/icon.ico',
-      name: 'NW Thetimer',
-    }
+    icon: 'src/icon',
+    name: 'NW Thetimer'
   },
   rebuildConfig: {},
   makers: [
@@ -11,19 +9,10 @@ module.exports = {
       name: '@electron-forge/maker-squirrel',
       config: {
         name: 'thetimer',
-      },
-    },
-    {
-      name: '@electron-forge/maker-zip',
-      platforms: ['darwin'],
-    },
-    {
-      name: '@electron-forge/maker-deb',
-      config: {},
-    },
-    {
-      name: '@electron-forge/maker-rpm',
-      config: {},
-    },
-  ],
+        iconUrl: 'https://respaw.nz/res/img/icon.ico',
+        win32icon: 'src/icon.ico',
+        setupIcon: 'src/icon.ico'
+      }
+    }
+  ]
 };

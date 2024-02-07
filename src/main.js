@@ -28,6 +28,7 @@ const createWindow = () => {
         transparent: true,
         alwaysOnTop: true,
     });
+    win.setIcon(path.join(__dirname, '/icon.ico'));
     let mlock = false;
     globalShortcut.register('Alt+CommandOrControl+X', () => {
         if(!mlock) { 
@@ -53,7 +54,7 @@ const createWindow = () => {
             //preload: path.join(__dirname, 'preload.js')
         },
     });
-
+    popupWin.setIcon(path.join(__dirname, '/icon.ico'));
     popupWin.loadFile("src/popup.html");
   };
 

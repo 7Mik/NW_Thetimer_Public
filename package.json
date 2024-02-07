@@ -1,5 +1,5 @@
 {
-  "name": "new-world-thetimer",
+  "name": "nwthetimer",
   "version": "0.9.0",
   "description": "The most reliable respawn timer, by the most reliable player",
   "main": "src/main.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/7Mik/desktop_timer"
+    "url": "https://github.com/7Mik/NW_Thetimer_Public"
   },
   "author": "Fabio Theta",
   "license": "UNLICENSED",
@@ -28,36 +28,5 @@
   "dependencies": {
     "electron-reload": "^2.0.0-alpha.1",
     "electron-squirrel-startup": "^1.0.0"
-  },
-  "config": {
-    "forge": {
-      "packagerConfig": {
-        "win32": {
-          "icon": "./src/icon.ico",
-          "name": "NW Thetimer"
-        }
-      },
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "thetimer",
-            "icon": "./src/icon.ico"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-zip",
-          "platforms": ["darwin"]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {}
-        },
-        {
-          "name": "@electron-forge/maker-rpm",
-          "config": {}
-        }
-      ]
-    }
   }
 }
